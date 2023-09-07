@@ -4,7 +4,6 @@ import "./home.css";
 import Typewriter from "typewriter-effect";
 import Resume from "../../assets/docs/RxResume_NewUpdate.pdf";
 import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
-import Slide from "react-reveal/Slide";
 
 const Home = () => {
   const [theme, setTheme] = useTheme();
@@ -39,26 +38,23 @@ const Home = () => {
           </h1>
 
           <div className="home-buttons">
-            <Slide left>
-              <a
-                href="https://api.whatsap.com/send?phone=9353732250"
-                rel="noreferrer"
-                target="_blank"
-                className="btn btn-hire"
-              >
-                Hire Me
-              </a>
-            </Slide>
-            <Slide right>
-              <a
-                type=""
-                className="btn btn-cv"
-                href={Resume}
-                download="Anitha.pdf"
-              >
-                My Resume
-              </a>
-            </Slide>
+            <a
+              href="https://api.whatsap.com/send?phone=9353732250"
+              rel="noreferrer"
+              target="_blank"
+              className="btn btn-hire"
+            >
+              Hire Me
+            </a>
+
+            <a
+              type=""
+              className="btn btn-cv"
+              href={Resume}
+              download="Anitha.pdf"
+            >
+              My Resume
+            </a>
           </div>
         </div>
       </div>
