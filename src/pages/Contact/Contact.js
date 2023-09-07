@@ -31,7 +31,7 @@ const Contact = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:3001/send-email",
+        "https://mernportfoliobackend.onrender.com/send-email",
         formData
       );
       console.log("Response Status:", response.status);
