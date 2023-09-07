@@ -8,7 +8,6 @@ import WorkExp from "./pages/workExp/WorkExp";
 import ScrollToTop from "react-scroll-to-top";
 import { useTheme } from "./context/ThemeContext";
 import MobileNav from "./components/MobileNav/MobileNav";
-import Tada from "react-reveal/Tada";
 
 function App() {
   const [theme] = useTheme();
@@ -28,9 +27,7 @@ function App() {
         </div>
 
         <div className="footer pb-3 ms-3">
-          <Tada>
-            <h4 className="text-center">Made with ❤️ Anitha &copy; 2023</h4>
-          </Tada>
+          <h4 className="text-center">Made with ❤️ Anitha &copy; 2023</h4>
         </div>
       </div>
       <ScrollToTop
