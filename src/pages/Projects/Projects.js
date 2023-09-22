@@ -1,5 +1,6 @@
 import React from "react";
 import "./Projects.css";
+import Webscrap from "../../assets/images/projectWEB.cf8f84287eba5858a06b.png";
 
 const Projects = () => {
   return (
@@ -11,16 +12,13 @@ const Projects = () => {
         <hr />
 
         <p className="pb-3 text-center">
-          here are my top 3 recent projects with live links and source code here
-          are my top 3 recent projects with live links and source code here are
-          my top 3 recent projects with live links and source code here are my
-          top 3 recent projects with live links and source code here are my top
-          3 recent projects with live links and source code here are my top 3
-          recent projects with live links and source code here are my top 3
-          recent projects with live links and source code here are my top 3
-          recent projects with live links and source code here are my top 3
-          recent projects with live links and source code here are my top 3
-          recent projects with live links and source code
+          In the world of web development, the MERN stack has emerged as a
+          powerful choice for building modern, feature-rich web applications.
+          Today, we're diving into the impressive portfolio of a talented
+          developer who has created four exciting MERN stack projects. These
+          projects showcase a diverse range of skills and creativity, from web
+          scraping and real-time communication to e-commerce and library
+          management.
         </p>
 
         {/* Card Design */}
@@ -36,17 +34,36 @@ const Projects = () => {
                 />
               </div>
               <div className="card-image-overly m-auto mt-3">
-                <span className="card-detail-badge">Node</span>
-                <span className="card-detail-badge">Express</span>
-                <span className="card-detail-badge">React</span>
-                <span className="card-detail-badge">MongoDB</span>
+                <a
+                  href="https://github.com/Anitha1827/ZoomClone_WebRTC_frontend"
+                  className="card-detail-badge"
+                  style={{ textDecoration: "none" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  UI source code
+                </a>
+                <a
+                  href="https://github.com/Anitha1827/ZoomClone_WebRTC_backend"
+                  className="card-detail-badge"
+                  style={{ textDecoration: "none" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Backend Source code
+                </a>
               </div>
               <div className="card-body text-center">
                 <div className="ad-title m-auto">
                   <h5 className="text-uppercase">Video Chating Application</h5>
                 </div>
-                <a href="view" className="ad-btn">
-                  View
+                <a
+                  href="https://jade-tarsier-288326.netlify.app/"
+                  className="ad-btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live
                 </a>
               </div>
             </div>
@@ -62,19 +79,36 @@ const Projects = () => {
                 />
               </div>
               <div className="card-image-overly m-auto mt-3">
-                <span className="card-detail-badge">Node</span>
-                <span className="card-detail-badge">Express</span>
-                <span className="card-detail-badge">React</span>
-                <span className="card-detail-badge">MongoDB</span>
+                <a
+                  href="https://github.com/Anitha1827/E-commerce-frontend"
+                  className="card-detail-badge"
+                  style={{ textDecoration: "none" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  UI source code
+                </a>
+                <a
+                  href="https://github.com/Anitha1827/E-commerce-App-backend"
+                  className="card-detail-badge"
+                  style={{ textDecoration: "none" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Backend Source code
+                </a>
               </div>
               <div className="card-body text-center">
                 <div className="ad-title m-auto">
-                  <h5 className="text-uppercase">
-                    Techinfoyt Shopping App Website
-                  </h5>
+                  <h5 className="text-uppercase">E-commerce App</h5>
                 </div>
-                <a href="view" className="ad-btn">
-                  View
+                <a
+                  href="https://superb-clafoutis-168df1.netlify.app/"
+                  className="ad-btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live
                 </a>
               </div>
             </div>
@@ -90,17 +124,80 @@ const Projects = () => {
                 />
               </div>
               <div className="card-image-overly m-auto mt-3">
-                <span className="card-detail-badge">Node</span>
-                <span className="card-detail-badge">Express</span>
-                <span className="card-detail-badge">React</span>
-                <span className="card-detail-badge">MongoDB</span>
+                <a
+                  href="https://github.com/Anitha1827/library_management_crud"
+                  className="card-detail-badge"
+                  style={{ textDecoration: "none" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  UI source code
+                </a>
+                <a
+                  href="https://6469d79003bb12ac2093b550.mockapi.io/Books"
+                  className="card-detail-badge"
+                  style={{ textDecoration: "none" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Backend Source code
+                </a>
               </div>
               <div className="card-body text-center">
                 <div className="ad-title m-auto">
                   <h5 className="text-uppercase">Library Application</h5>
                 </div>
-                <a href="view" className="ad-btn">
-                  View
+                <a
+                  href="https://glowing-basbousa-2993ea.netlify.app/"
+                  className="ad-btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="row" id="ads">
+          <div className="col-md-4">
+            <div className="card rounded">
+              <div className="card-image">
+                <span className="card-notify-badge">Full Stack</span>
+                <img src={Webscrap} alt="project 3" />
+              </div>
+              <div className="card-image-overly m-auto mt-3">
+                <a
+                  href="https://github.com/Anitha1827/web-scraping-frontend"
+                  className="card-detail-badge"
+                  style={{ textDecoration: "none" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  UI source code
+                </a>
+                <a
+                  href="https://github.com/Anitha1827/webscraping_backend"
+                  className="card-detail-badge"
+                  style={{ textDecoration: "none" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Backend Source code
+                </a>
+              </div>
+              <div className="card-body text-center">
+                <div className="ad-title m-auto">
+                  <h5 className="text-uppercase">Web Scraping</h5>
+                </div>
+                <a
+                  href="https://soft-moxie-18d360.netlify.app/"
+                  className="ad-btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live
                 </a>
               </div>
             </div>
