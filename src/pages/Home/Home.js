@@ -39,7 +39,7 @@ const Home = () => {
 
           <div className="home-buttons">
             <a
-              href="https://api.whatsap.com/send?phone=9353732250"
+              href="https://api.whatsapp.com/send?phone=${9353732250}&text=${encodeURIComponent(message)}"
               rel="noreferrer"
               target="_blank"
               className="btn btn-hire"
