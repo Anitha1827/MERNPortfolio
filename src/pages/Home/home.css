@@ -14,9 +14,9 @@
   padding: 10px;
 }
 
-.home-buttons {
+/* .home-buttons {
   margin-top: 20px;
-}
+} */
 
 .home-buttons .btn-hire {
   background-color: #3b8ff3;
@@ -30,6 +30,71 @@
   width: 200px;
   transition: 1s;
 }
+
+.home-buttonsa .phone {
+  background-color: #33bb88;
+  color: white;
+  width: 160px;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.home-buttonsa .phone:hover {
+  background-color: #33bb88;
+  color: white;
+  width: 200px;
+  transition: 1s;
+}
+
+.home-buttonsa .github {
+  background-color: black;
+  color: white;
+  width: 160px;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+.home-buttonsa .phone:hover {
+  background-color: white;
+  color: black;
+  width: 200px;
+  transition: 1s;
+}
+
+.home-buttonsa .linkedin {
+  background-color: #3b8ff3;
+  color: white;
+  width: 160px;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.home-buttonsa .linkedin:hover {
+  background-color: white;
+  color: #3b8ff3;
+  width: 200px;
+  transition: 1s;
+}
+
+.home-buttonsa .email {
+  background-color: #f33b3b;
+  color: white;
+  width: 160px;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.contactlist {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
 .home-buttons .btn-cv {
   background-color: #f29f67;
   color: white;

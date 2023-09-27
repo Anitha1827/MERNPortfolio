@@ -46,7 +46,7 @@ const Menus = ({ toggle }) => {
                   <FcAbout /> About
                 </Link>
               </div>
-              <div className="nav-link">
+              {/* <div className="nav-link">
                 <Link
                   to="education"
                   spy={true}
@@ -56,7 +56,7 @@ const Menus = ({ toggle }) => {
                 >
                   <FcReadingEbook /> Education
                 </Link>
-              </div>
+              </div> */}
 
               <div className="nav-link">
                 <Link
@@ -85,7 +85,7 @@ const Menus = ({ toggle }) => {
               {/* <div className="nav-link">
                 <FcVoicePresentation /> Testimonial
               </div> */}
-              <div className="nav-link">
+              {/* <div className="nav-link">
                 <Link
                   to="workexp"
                   spy={true}
@@ -95,7 +95,7 @@ const Menus = ({ toggle }) => {
                 >
                   <FcPortraitMode /> Work Experince
                 </Link>
-              </div>
+              </div> */}
               <div className="nav-link">
                 <Link
                   to="contact"

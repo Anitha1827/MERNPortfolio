@@ -11,15 +11,7 @@ const Projects = () => {
         </h2>
         <hr />
 
-        <p className="pb-3 text-center">
-          In the world of web development, the MERN stack has emerged as a
-          powerful choice for building modern, feature-rich web applications.
-          Today, we're diving into the impressive portfolio of a talented
-          developer who has created four exciting MERN stack projects. These
-          projects showcase a diverse range of skills and creativity, from web
-          scraping and real-time communication to e-commerce and library
-          management.
-        </p>
+        <p className="pb-3 text-center">Most recent works</p>
 
         {/* Card Design */}
 
@@ -101,6 +93,10 @@ const Projects = () => {
               <div className="card-body text-center">
                 <div className="ad-title m-auto">
                   <h5 className="text-uppercase">E-commerce App</h5>
+                  <h6>
+                    Credentials admin : admin@admin.com pw: 123 <br />
+                    user: user@user.com pw: 1234
+                  </h6>
                 </div>
                 <a
                   href="https://superb-clafoutis-168df1.netlify.app/"

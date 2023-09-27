@@ -76,8 +76,15 @@ const Contact = () => {
                   <div className="row">
                     <h6>
                       Contact With
-                      <BsLinkedin color="blue" size={30} className="ms-2" />
-                      <BsGithub color="black" size={30} className="ms-2" />
+                      <a
+                        href="https://www.linkedin.com/in/anitha-kaladharan-4600351b3/"
+                        target="blank"
+                      >
+                        <BsLinkedin color="blue" size={30} className="ms-2" />
+                      </a>
+                      <a href="https://github.com/Anitha1827" target="blank">
+                        <BsGithub color="black" size={30} className="ms-2" />
+                      </a>
                     </h6>
                   </div>
 

@@ -3,7 +3,15 @@ import { useTheme } from "../../context/ThemeContext";
 import "./home.css";
 import Typewriter from "typewriter-effect";
 import Resume from "../../assets/docs/RxResume_PDFExport_anitha.hk2711_kaladharan_1695448564.pdf";
-import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
+import {
+  BsFillMoonStarsFill,
+  BsFillSunFill,
+  BsGithub,
+  BsLinkedin,
+  BsWhatsapp,
+} from "react-icons/bs";
+
+import { TfiEmail } from "react-icons/tfi";
 
 const Home = () => {
   const [theme, setTheme] = useTheme();
@@ -36,25 +44,57 @@ const Home = () => {
               }}
             />
           </h1>
+          <div className="contactlist">
+            <div className="home-buttons">
+              {/* <a
+                href="https://api.whatsapp.com/send?phone=${9353732250}&text=${encodeURIComponent(message)}"
+                rel="noreferrer"
+                target="blank"
+                className="btn btn-hire"
+              >
+                Hire Me
+              </a> */}
 
-          <div className="home-buttons">
-            <a
-              href="https://api.whatsapp.com/send?phone=${9353732250}&text=${encodeURIComponent(message)}"
-              rel="noreferrer"
-              target="_blank"
-              className="btn btn-hire"
-            >
-              Hire Me
-            </a>
+              <a
+                type=""
+                className="btn btn-cv"
+                href={Resume}
+                download="Anitha.pdf"
+              >
+                My Resume
+              </a>
+            </div>
+            <div className="home-buttonsa">
+              <a
+                href="https://web.whatsapp.com/9353732250"
+                target="blank"
+                className="phone"
+              >
+                <BsWhatsapp />
+              </a>
 
-            <a
-              type=""
-              className="btn btn-cv"
-              href={Resume}
-              download="Anitha.pdf"
-            >
-              My Resume
-            </a>
+              <a
+                href="https://github.com/Anitha1827"
+                target="blank"
+                className="github"
+              >
+                <BsGithub />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/anitha-kaladharan-4600351b3/"
+                target="blank"
+                className="linkedin"
+              >
+                <BsLinkedin />
+              </a>
+              <a
+                href="anitha.h2711@gmail.com"
+                target="blank"
+                className="email bg-color-warning"
+              >
+                <TfiEmail />
+              </a>
+            </div>
           </div>
         </div>
       </div>
