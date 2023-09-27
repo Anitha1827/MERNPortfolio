@@ -11,6 +11,7 @@ import {
   SiMysql,
   SiGithub,
   SiExpress,
+  SiPostman,
 } from "react-icons/si";
 export const TechstackList = [
   {
@@ -75,6 +76,11 @@ export const TechstackList = [
   },
   {
     _id: 13,
+    name: "Postman ",
+    icon: SiPostman,
+  },
+  {
+    _id: 14,
     name: "Git / Github ",
     icon: SiGithub,
   },
