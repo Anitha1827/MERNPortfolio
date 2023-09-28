@@ -55,7 +55,7 @@ const Home = () => {
                 Hire Me
               </a> */}
 
-              <a type="" className="btn btn-cv" href={Resume} target="blank">
+              <a className="btn btn-cv" href={Resume} target="blank">
                 My Resume
               </a>
             </div>
