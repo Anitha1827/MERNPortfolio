@@ -2,7 +2,7 @@ import React from "react";
 import { useTheme } from "../../context/ThemeContext";
 import "./home.css";
 import Typewriter from "typewriter-effect";
-import Resume from "https://drive.google.com/file/d/108XwWwTQgnxgv8gKxc6QvodeDH115To5/view?usp=sharing";
+// import Resume from "";
 import {
   BsFillMoonStarsFill,
   BsFillSunFill,
@@ -55,7 +55,12 @@ const Home = () => {
                 Hire Me
               </a> */}
 
-              <a type="" className="btn btn-cv" href={Resume} target="blank">
+              <a
+                type=""
+                className="btn btn-cv"
+                href="https://drive.google.com/file/d/108XwWwTQgnxgv8gKxc6QvodeDH115To5/view?usp=sharing"
+                target="blank"
+              >
                 My Resume
               </a>
             </div>

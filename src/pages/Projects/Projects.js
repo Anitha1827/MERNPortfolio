@@ -95,7 +95,7 @@ const Projects = () => {
                   <h5 className="text-uppercase">E-commerce App</h5>
                   <h6>
                     Credentials admin : admin@admin.com pw: 123 <br />
-                    user: user@user.com pw: 1234
+                    user: user@user.com pw: 123
                   </h6>
                 </div>
                 <a
