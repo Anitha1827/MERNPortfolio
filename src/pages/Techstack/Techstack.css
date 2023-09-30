@@ -1,6 +1,7 @@
 .techstack {
-  padding-left: 150px;
-  margin-top: 40px 0px;
+  margin-left: 200px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 82%;
 }
 .techstack hr {
   color: #138781;

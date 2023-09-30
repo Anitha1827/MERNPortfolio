@@ -46,14 +46,14 @@ const Home = () => {
           </h1>
           <div className="contactlist">
             <div className="home-buttons">
-              {/* <a
+              <a
                 href="https://api.whatsapp.com/send?phone=${9353732250}&text=${encodeURIComponent(message)}"
                 rel="noreferrer"
                 target="blank"
                 className="btn btn-hire"
               >
                 Hire Me
-              </a> */}
+              </a>
 
               <a
                 type=""
@@ -65,13 +65,13 @@ const Home = () => {
               </a>
             </div>
             <div className="home-buttonsa">
-              <a
+              {/* <a
                 href="https://web.whatsapp.com/9353732250"
                 target="blank"
                 className="phone"
               >
                 <BsWhatsapp />
-              </a>
+              </a> */}
 
               <a
                 href="https://github.com/Anitha1827"

@@ -121,7 +121,7 @@ const Projects = () => {
               </div>
               <div className="card-image-overly m-auto mt-3">
                 <a
-                  href="https://github.com/Anitha1827/library_management_crud"
+                  href="https://github.com/Anitha1827/social-media-app-frontend"
                   className="card-detail-badge"
                   style={{ textDecoration: "none" }}
                   target="_blank"
@@ -130,7 +130,7 @@ const Projects = () => {
                   UI source code
                 </a>
                 <a
-                  href="https://6469d79003bb12ac2093b550.mockapi.io/Books"
+                  href="https://github.com/Anitha1827/social-media-app-backend"
                   className="card-detail-badge"
                   style={{ textDecoration: "none" }}
                   target="_blank"
@@ -141,10 +141,15 @@ const Projects = () => {
               </div>
               <div className="card-body text-center">
                 <div className="ad-title m-auto">
-                  <h5 className="text-uppercase">Library Application</h5>
+                  <h5 className="text-uppercase">Social Medial Thread</h5>
+                  <h6>
+                    {" "}
+                    username : ani pw: 123 <br />
+                    username: test pw: 123
+                  </h6>
                 </div>
                 <a
-                  href="https://glowing-basbousa-2993ea.netlify.app/"
+                  href="https://sparkling-narwhal-ee0e51.netlify.app/auth"
                   className="ad-btn"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -189,6 +194,50 @@ const Projects = () => {
                 </div>
                 <a
                   href="https://soft-moxie-18d360.netlify.app/"
+                  className="ad-btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card rounded">
+              <div className="card-image">
+                <span className="card-notify-badge">Full Stack</span>
+                <img
+                  src="https://content.jdmagicbox.com/comp/def_content/libraries/default-libraries-6.jpg"
+                  alt="project 3"
+                />
+              </div>
+              <div className="card-image-overly m-auto mt-3">
+                <a
+                  href="https://github.com/Anitha1827/library_management_crud"
+                  className="card-detail-badge"
+                  style={{ textDecoration: "none" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  UI source code
+                </a>
+                <a
+                  href="https://6469d79003bb12ac2093b550.mockapi.io/Books"
+                  className="card-detail-badge"
+                  style={{ textDecoration: "none" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Backend Source code
+                </a>
+              </div>
+              <div className="card-body text-center">
+                <div className="ad-title m-auto">
+                  <h5 className="text-uppercase">Library Application</h5>
+                </div>
+                <a
+                  href="https://glowing-basbousa-2993ea.netlify.app/"
                   className="ad-btn"
                   target="_blank"
                   rel="noopener noreferrer"
