@@ -1,6 +1,8 @@
 import React from "react";
 import "./Projects.css";
 import Webscrap from "../../assets/images/projectWEB.cf8f84287eba5858a06b.png";
+import social from "../../assets/images/bookcollection.png";
+import quiz from "../../assets/images/quiz.png";
 
 const Projects = () => {
   return (
@@ -114,10 +116,54 @@ const Projects = () => {
             <div className="card rounded">
               <div className="card-image">
                 <span className="card-notify-badge">Full Stack</span>
-                <img
-                  src="https://content.jdmagicbox.com/comp/def_content/libraries/default-libraries-6.jpg"
-                  alt="project 3"
-                />
+                <img src={social} alt="project 3" />
+              </div>
+              <div className="card-image-overly m-auto mt-3">
+                <a
+                  href="https://github.com/Anitha1827/bookCollectionFrontend.git"
+                  className="card-detail-badge"
+                  style={{ textDecoration: "none" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  UI source code
+                </a>
+                <a
+                  href="https://github.com/Anitha1827/bookCollectionBackend.git"
+                  className="card-detail-badge"
+                  style={{ textDecoration: "none" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Backend Source code
+                </a>
+              </div>
+              <div className="card-body text-center">
+                <div className="ad-title m-auto">
+                  <h5 className="text-uppercase">Book Collections</h5>
+                  {/* <h6>
+                    {" "}
+                    username : ani pw: 123 <br />
+                    username: test pw: 123
+                  </h6> */}
+                </div>
+                <a
+                  href="https://main--glowing-lokum-9b6cce.netlify.app/"
+                  className="ad-btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* <div className="col-md-4">
+            <div className="card rounded">
+              <div className="card-image">
+                <span className="card-notify-badge">Full Stack</span>
+                <img src={social} alt="project 3" />
               </div>
               <div className="card-image-overly m-auto mt-3">
                 <a
@@ -158,7 +204,7 @@ const Projects = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className="row" id="ads">
@@ -238,6 +284,47 @@ const Projects = () => {
                 </div>
                 <a
                   href="https://glowing-basbousa-2993ea.netlify.app/"
+                  className="ad-btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card rounded">
+              <div className="card-image">
+                <span className="card-notify-badge">Full Stack</span>
+                <img src={quiz} alt="project 3" />
+              </div>
+              <div className="card-image-overly m-auto mt-3">
+                <a
+                  href="https://github.com/Anitha1827/quizfrontend.git"
+                  className="card-detail-badge"
+                  style={{ textDecoration: "none" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  UI source code
+                </a>
+                <a
+                  href="https://github.com/Anitha1827/quizAppBackend.git"
+                  className="card-detail-badge"
+                  style={{ textDecoration: "none" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Backend Source code
+                </a>
+              </div>
+              <div className="card-body text-center">
+                <div className="ad-title m-auto">
+                  <h5 className="text-uppercase">Library Application</h5>
+                </div>
+                <a
+                  href="https://main--resplendent-malabi-594eaa.netlify.app/"
                   className="ad-btn"
                   target="_blank"
                   rel="noopener noreferrer"

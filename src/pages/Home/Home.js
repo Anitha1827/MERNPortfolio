@@ -46,14 +46,14 @@ const Home = () => {
           </h1>
           <div className="contactlist">
             <div className="home-buttons">
-              <a
+              {/* <a
                 href="https://api.whatsapp.com/send?phone=${9353732250}&text=${encodeURIComponent(message)}"
                 rel="noreferrer"
                 target="blank"
                 className="btn btn-hire"
               >
                 Hire Me
-              </a>
+              </a> */}
 
               <a
                 type=""
