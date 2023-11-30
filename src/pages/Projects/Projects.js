@@ -3,6 +3,7 @@ import "./Projects.css";
 import Webscrap from "../../assets/images/projectWEB.cf8f84287eba5858a06b.png";
 import social from "../../assets/images/bookcollection.png";
 import quiz from "../../assets/images/quiz.png";
+import notes from "../../assets/images/notesapp.png";
 
 const Projects = () => {
   return (
@@ -333,6 +334,135 @@ const Projects = () => {
                 </a>
               </div>
             </div>
+          </div>
+        </div>
+
+        <div className="row" id="ads">
+          <div className="col-md-4">
+            <div className="card rounded">
+              <div className="card-image">
+                <span className="card-notify-badge">Full Stack</span>
+                <img src={notes} alt="project 3" />
+              </div>
+              <div className="card-image-overly m-auto mt-3">
+                <a
+                  href="https://github.com/Anitha1827/notestaking-app-frontend"
+                  className="card-detail-badge"
+                  style={{ textDecoration: "none" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  UI source code
+                </a>
+                <a
+                  href="https://github.com/Anitha1827/Note-backend"
+                  className="card-detail-badge"
+                  style={{ textDecoration: "none" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Backend Source code
+                </a>
+              </div>
+              <div className="card-body text-center">
+                <div className="ad-title m-auto">
+                  <h5 className="text-uppercase">Notes Taking App</h5>
+                </div>
+                <a
+                  href="https://notestakingwebapplication.netlify.app/"
+                  className="ad-btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4">
+            {/* <div className="card rounded">
+              <div className="card-image">
+                <span className="card-notify-badge">Full Stack</span>
+                <img
+                  src="https://content.jdmagicbox.com/comp/def_content/libraries/default-libraries-6.jpg"
+                  alt="project 3"
+                />
+              </div>
+              <div className="card-image-overly m-auto mt-3">
+                <a
+                  href="https://github.com/Anitha1827/library_management_crud"
+                  className="card-detail-badge"
+                  style={{ textDecoration: "none" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  UI source code
+                </a>
+                <a
+                  href="https://6469d79003bb12ac2093b550.mockapi.io/Books"
+                  className="card-detail-badge"
+                  style={{ textDecoration: "none" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Backend Source code
+                </a>
+              </div>
+              <div className="card-body text-center">
+                <div className="ad-title m-auto">
+                  <h5 className="text-uppercase">Library Application</h5>
+                </div>
+                <a
+                  href="https://glowing-basbousa-2993ea.netlify.app/"
+                  className="ad-btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live
+                </a>
+              </div>
+            </div> */}
+          </div>
+          <div className="col-md-4">
+            {/* <div className="card rounded">
+              <div className="card-image">
+                <span className="card-notify-badge">Full Stack</span>
+                <img src={quiz} alt="project 3" />
+              </div>
+              <div className="card-image-overly m-auto mt-3">
+                <a
+                  href="https://github.com/Anitha1827/quizfrontend.git"
+                  className="card-detail-badge"
+                  style={{ textDecoration: "none" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  UI source code
+                </a>
+                <a
+                  href="https://github.com/Anitha1827/quizAppBackend.git"
+                  className="card-detail-badge"
+                  style={{ textDecoration: "none" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Backend Source code
+                </a>
+              </div>
+              <div className="card-body text-center">
+                <div className="ad-title m-auto">
+                  <h5 className="text-uppercase">Library Application</h5>
+                </div>
+                <a
+                  href="https://main--resplendent-malabi-594eaa.netlify.app/"
+                  className="ad-btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live
+                </a>
+              </div>
+            </div> */}
           </div>
         </div>
       </div>
